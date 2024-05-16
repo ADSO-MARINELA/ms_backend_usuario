@@ -1,6 +1,5 @@
-import app from "./app/app.js";
-import {msjConsole, mensa} from "./app/message/consola.js";
-import colors from "colors";
+import app from "./app.js";
+import {msjConsole, mensa} from "./message/consola.js";
 
 app.listen(app.get("port"), () => {
     msjConsole("puertoSuccess", 
